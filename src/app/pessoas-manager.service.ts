@@ -24,7 +24,7 @@ pessoas = [];
 
   PessoaVelha(){
     let aux = 0;
-    let maisvelho = [];
+    let maisvelho = [{idade: null}];
 
     for (const pessoa of this.pessoas){
       if (pessoa.idade > aux ){
@@ -37,7 +37,7 @@ pessoas = [];
 
   PessoaNova(){
     let aux = 0;
-    let maisnovo = [];
+    let maisnovo = [{idade: null}];
 
     for (const pessoa of this.pessoas){
       if (aux == 0){
